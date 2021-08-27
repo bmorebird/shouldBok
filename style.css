@@ -1,0 +1,64 @@
+/* make the size of the header just right , so h1, h2, and h3 all fit in nicely*/
+
+header {
+  height: 220px;
+	background-color:darkgoldenrod;
+	border: salmon;
+  margin: auto
+}
+
+/* style changes for h#'s in the heading only */
+header h2 {
+ text-align: center;
+ font-family: cursive
+}
+header h3 {
+  color: black
+}
+
+body {
+  background-color: rgb(112, 64, 146);
+}
+
+/* play around with the settings to get the image the right size n shape */
+.logo {
+  font-family: fantasy;
+  font-size: 55px;
+  color: black;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+img { 
+  width: 100%;	
+  border-radius: 55px;
+  border: 1px ;
+} 
+
+p {
+  margin: 22px;
+  color: azure
+}
+
+ul {
+  color: whitesmoke
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+	color: cornsilk;
+  text-align: center;
+  font-weight: 500;
+}
+
+a:link { color: peachpuff; }
+a:visited { color: palegoldenrod; }
+a:hover { color: yellowgreen; }
+a:active { color: #403933; }
+a:hover {
+	text-decoration: underline;	
+}
+
+footer {
+  background-color: darkslateblue
+}
